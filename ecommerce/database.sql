@@ -59,14 +59,15 @@ INSERT INTO categories (name) VALUES
 
 
 INSERT INTO products (name, description, price, image_url, category_id) VALUES
-('Ordinateur portable', 'PC portable 15 pouces pour la bureautique.', 599.99, 'https://via.placeholder.com/300x200?text=PC+portable', 1),
-('Souris sans fil', 'Souris confortable pour le quotidien.', 19.90, 'https://via.placeholder.com/300x200?text=Souris', 1),
-('Lampe de bureau', 'Lampe LED réglable pour votre bureau.', 29.90, 'https://via.placeholder.com/300x200?text=Lampe', 2),
-('Ballon de football', 'Ballon taille 5 pour le loisir.', 24.50, 'https://via.placeholder.com/300x200?text=Ballon', 3);
+('Ordinateur portable', 'un pc new gen de 16 pouce', 599.99, 'https://via.placeholder.com/300x200?text=PC+portable', 1),
+('Souris sans fil', 'Une souris rgb', 19.90, 'https://via.placeholder.com/300x200?text=Souris', 1),
+('Lampe de bureau', 'une lambe haute game reglable', 29.90, 'https://via.placeholder.com/300x200?text=Lampe', 2),
+('Ballon de football', 'un ballon de foot collector', 24.50, 'https://via.placeholder.com/300x200?text=Ballon', 3);
 
 
 INSERT INTO users (name, email, password_hash, created_at) VALUES
 ('Utilisateur Test', 'test@example.com', '$2y$10$B1a8gXvX3e6e5ZtBtAOvEuhqX.MKJ6fPG.vZlVwPuk.OQW7ciG.gC', NOW());
+
 
 
 
